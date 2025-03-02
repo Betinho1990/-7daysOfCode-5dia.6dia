@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Compras</h1>
+        <button id="adicionar">Adicionar Item</button>
+        <button id="finalizar" style="display: none;">Finalizar Lista</button>
+        <div id="formulario" style="display: none;">
+            <input type="text" id="item" placeholder="Digite o nome do item">
+            <select id="categoria">
+                <option value="" disabled selected>Selecione uma categoria</option>
+                <option value="Frutas">Frutas</option>
+                <option value="Laticínios">Laticínios</option>
+                <option value="Congelados">Congelados</option>
+                <option value="Doces">Doces</option>
+                <option value="Outros">Outros</option>
+            </select>
+            <button id="salvar">Salvar Item</button>
+        </div>
+        <div id="lista"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
