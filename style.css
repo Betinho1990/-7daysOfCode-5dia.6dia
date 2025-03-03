@@ -1,79 +1,114 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #1e1e2e;
-    color: white;
     text-align: center;
+    background-color: #1e1e2e;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
-/* Container da lista */
 .container {
-    width: 40%;
+    width: 35%;
+    margin: 30px auto;
     background-color: #2a2a3a;
-    padding: 20px;
-    margin: 50px auto;
+    padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Botões */
-button {
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
+h1 {
+    color: #ffcc00;
+}
+
+label, select, button, input {
     font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#adicionar {
-    background-color: #ffcc00;
-}
-
-#adicionar:hover {
-    background-color: #e6b800;
-}
-
-#salvar {
-    background-color: #4caf50;
-}
-
-#salvar:hover {
-    background-color: #45a049;
-}
-
-#finalizar {
-    background-color: #f44336;
-    text-align: center;
-    margin: 10px auto;
-    width: 85%;
-}
-
-#finalizar:hover {
-    background-color: #d32f2f;
-}
-
-/* Formulário */
-input, select {
-    width: 80%;
-    padding: 10px;
     margin: 10px 0;
+    display: block;
+    width: 100%;
+}
+
+select, input {
+    padding: 10px;
     border-radius: 5px;
     border: none;
     background-color: #3a3a4a;
-    color: white;
+    color: #ffffff;
 }
 
-/* Lista de compras */
-#lista {
+button {
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+#tecnologia, #caminho, #labelTecnologia {
+    display: none;
+}
+
+/* Centralizar o input de nova tecnologia */
+#novaTecnologia {
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    width: 80%;
+}
+
+/* Estilização do botão de reinício */
+#reiniciar {
+    padding: 12px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    width: 85%;
+    transition: 0.3s;
+    display: none;
+    margin: 10px auto;
+    text-align: center;
+} 
+
+#reiniciar:hover {
+    background-color: #e6b800;
+}
+
+/* Botão de remover item */
+#remover {
+    padding: 12px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    width: 85%;
+    transition: 0.3s;
+    display: none;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#remover:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilização para manter a lista visível após finalização */
+#listaComprasFinal {
     margin-top: 20px;
     text-align: left;
+    padding: 15px;
+    background-color: #3a3a4a;
+    border-radius: 10px;
+    display: block;
 }
-
-#lista h2 {
-    color: #ffcc00;
+select option[disabled] {
+    display: none;
 }

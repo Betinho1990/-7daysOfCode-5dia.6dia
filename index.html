@@ -10,20 +10,31 @@
     <div class="container">
         <h1>Lista de Compras</h1>
         <button id="adicionar">Adicionar Item</button>
-        <button id="finalizar" style="display: none;">Finalizar Lista</button>
+        <button id="remover" style="display: none;">Remover Item</button>
+        <button id="finalizar" style="display: none;">Finalizar Compras</button>
+
         <div id="formulario" style="display: none;">
+            <label for="item">Nome do Item:</label>
             <input type="text" id="item" placeholder="Digite o nome do item">
+            
+            <label for="categoria">Escolha a Categoria:</label>
             <select id="categoria">
-                <option value="" disabled selected>Selecione uma categoria</option>
+                <option value="" disabled selected>Escolha uma categoria para este item</option>
                 <option value="Frutas">Frutas</option>
                 <option value="Laticínios">Laticínios</option>
                 <option value="Congelados">Congelados</option>
                 <option value="Doces">Doces</option>
                 <option value="Outros">Outros</option>
             </select>
+            
+
             <button id="salvar">Salvar Item</button>
         </div>
-        <div id="lista"></div>
+
+        <ul id="listaCompras"></ul>
+        <div id="listaComprasFinal" style="display: none;"></div>
+
+        <button id="reiniciar" style="display: none;">Reiniciar Compras</button>
     </div>
 
     <script src="app.js"></script>
