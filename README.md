@@ -12,30 +12,30 @@ Este é um Gerenciador de Lista de Compras desenvolvido em JavaScript. Ele permi
 
 ## ✨ Funcionalidade
 
-✅ Adicionar Itens: Permite adicionar itens à lista de compras, categorizando-os.
-✅ Remover Itens: Possibilita a remoção de um item específico da lista.
-✅ Finalizar Lista: Organiza os itens por categoria e exibe o resumo.
-✅ Reiniciar Lista: Limpa a lista e reinicia o processo.
+✅ **Adicionar Itens: Permite adicionar itens à lista de compras, categorizando-os.
+✅ **Remover Itens: Possibilita a remoção de um item específico da lista.
+✅ **Finalizar Lista: Organiza os itens por categoria e exibe o resumo.
+✅ **Reiniciar Lista: Limpa a lista e reinicia o processo.
 
-##📌 Como Usar
+## 📌 Como Usar
 
-Clique no botão Adicionar para inserir um novo item.
+Clique no botão **Adicionar** para inserir um novo item.
 
 Escolha uma categoria e digite o nome do item.
 
-Clique em Salvar para adicionar o item à lista.
+Clique em **Salvar** para adicionar o item à lista.
 
-Para remover um item, clique em Remover, digite o nome exato do item e confirme.
+Para remover um item, clique em **Remover**, digite o nome exato do item e confirme.
 
-Após finalizar as adições, clique em Finalizar para visualizar a lista organizada.
+Após finalizar as adições, clique em **Finalizar** para visualizar a lista organizada.
 
-Para começar uma nova lista, clique em Reiniciar.
+Para começar uma nova lista, clique em **Reiniciar**.
 
-##🔗 Tecnologias Utilizadas
+## 🔗 Tecnologias Utilizadas
 
 HTML para estrutura da página.
 
-CSS para estilização (caso aplicado).
+CSS para estilização.
 
 JavaScript para manipulação dos elementos da lista.
 
